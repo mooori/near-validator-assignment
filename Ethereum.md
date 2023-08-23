@@ -49,6 +49,7 @@ On an Ethereum node, the consensus client handles consensus related logic. The E
 
 # Other sources
 
+- [Vitalik's presentation](https://web.archive.org/web/20190504131341/https://vitalik.ca/files/Ithaca201807_Sharding.pdf) referred to by the Ethereum community.
 - [Proof of stake (POS) overview](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos)
 - [Attestations](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attestations/)
 - [POS attack and defense](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attack-and-defense)
