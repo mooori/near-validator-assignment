@@ -27,6 +27,8 @@ For an answer of this question, the Ethereum community refers ([a](https://eth2b
 1. Use of the binomial distribution which assumes sampling _with_ replacement while, actually, there is no replacement. Once assigned to a committee, a validator cannot be assigned to another committee for the same slot.
 2. The analysis considers only one shard and wrongly assumes the following probabilities are equal: `P(failure in shard 1) = P(at least one failure across all shards)`. To illustrate the error in that assumption, the author compares a safety failure in a single shard to the occurrence of tails in a coin flip. The more coin flips (shards), the higher the probability of at least one tails (safety failure).
 
+_Note that 2. refers to shards instead of committees as it was written before shards were [removed](https://github.com/ethereum/consensus-specs/pull/1428) from Ethereum 2._
+
 The first issue can be addressed by using the hypergeometric distribution instead of the binomial distribution. However, this does not address the second issue since successive hypergeometric samples are not independent.
 
 ## Inconsistency regarding stake weights
