@@ -10,3 +10,4 @@ NEAR stateless validation is still in the design phase. More information can be 
 # Overview
 
 - [Ethereum.md](./Ethereum.md) contains an analysis of Ethereum's validator assignment and its security properties.
+- [Obstacles.md](./Obstacles.md) discusses some issues that might complicate the rollout of a new algorithm for validator assignment.
